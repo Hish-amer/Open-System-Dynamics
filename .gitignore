@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# ---- Conda / venv ----
+.env
+.venv/
+venv/
+# --- vscode ---
+.vscode
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- Testing / tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- My outputs ----
+Runs/
+Results/
+Data/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# --- temp ignores ---
+# for temp files still not commitable
+
+notebooks/parralelization_pilot.ipynb
